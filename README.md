@@ -1,1 +1,1 @@
-# https://ackley787.github.io/
+# ackley787.github.io

@@ -1,7 +1,7 @@
 
 
 html{
-    font-family:'Open Sans', sans-serif;
+    font-family:'FontAwesome', sans-serif;
     line-height: 1.618em;
     box-sizing: border-box;
     margin: 0;
@@ -119,3 +119,4 @@ footer{
     padding: 1em 0;
     text-align: center;
 }
+
