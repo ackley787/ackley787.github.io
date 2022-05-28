@@ -1,51 +1,152 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+
     <title>Adam Ackley</title>
+    <style>
+        .holder{
+            margin-top: -3em;
+           
+        }
+        .holder img{
+            max-height: 200px;
+            max-width: 200px;
+            object-fit: cover;
+       
+        }
+        
+        </style>
+        <div class='holder'>
+            <img src="assets\HatchfulExport-All\logo_transparent.png" alt="">
+        </div>
+
+        <style>
+            .profile_pic{
+                margin-left: 1.5em;
+               
+            }
+            .profile_pic img{
+                max-height: 400;
+                max-width: 400px;
+                object-fit: cover;
+           
+            }
+            
+            </style>
+              <style>
+                .project_holder{
+                   
+                   
+                }
+                .project_holder img{
+                    max-height: 250px;
+                    max-width: 250px;
+                    margin-left: 1em;
+                  
+                    object-fit: cover;
+               
+                }
+                
+                </style>
 </head>
+<div class="profile_pic">
+    <img src="assets\Adam.jpg" alt="">
+</div>
 <body>
 
     <header>
-        <img src="assets\HatchfulExport-All\logo_transparent.png" alt="">
-        <i class="fa-brands fa-github-square"></i>
-        <i class="fa-brands fa-linkedin"></i>
+        <h1>Adam Ackley</h1>
+        <span>Junior Software Developer</span>
+     
         <nav>
             <a href="aboutMe">About Me</a>
-            <a href="contact">Contat</a>
-            <a href="education">Education</a>
-            <a href="workHistory">Work History</a>
+            <a href="contact">Contact</a>
+            <a href="projects">Projects</a>
+            <a href="https://github.com/ackley787" class="fa-brands fa-github-square"></a>
+            <ai href="www.linkedin.com/in/adam-ackley78"class="fa-brands fa-linkedin"></a>
         </nav>
-        <span>Adam Ackley</span>
+        
     </header>
 
     <main>
         <section id="#aboutMe">
+
             <h2>About Me</h2>
+
+            <ul>
+                <li>Columbus, OH</li>
+            </ul>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus. Elementum eu facilisis sed odio morbi quis commodo odio aenean. Tortor id aliquet lectus proin nibh nisl condimentum. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Scelerisque purus semper eget duis.</p>
+
         </section>
 
         <section id="#contact">
+
             <h2>Contact</h2>
+
             <ul>
+
                 <li>Email: ackley787@gmail.com</li>
                 <li>Phone: 614-736-0898</li>
+
             </ul>
 
         </section>
 
-        <section id="#education">
-            <h2>Education</h2>
-        </section>
+        <h2>Projects</h2>
 
-        <section id="#workHistory">
-            <h2>Work History</h2>
+        <section id="#projects">
+
+            <div id="projects">
+
+                <article>
+                    <div class="project_holder">
+                    <h3>Virtual Pet</h3>
+                    <img src="assets\Virtual Pet.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project_holder">
+                    <h3>Virtual Pet Shelter</h3>
+                    <img src="assets\Virtual Pet Shelter.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                    </div>    
+                </article>
+
+                <article>
+                    <div class="project_holder">
+                    <h3>Virtual Pet Amok</h3>
+                    <img src="assets\Virtual Pet Amok.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                    </div>    
+                </article>
+
+            </div>       
+          
         </section>
 
     </main>
-    
+
+    <footer>
+
+        &copy; Adam Ackley 2022
+
+        </footer>
+
 </body>
+
 </html>
