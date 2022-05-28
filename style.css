@@ -81,6 +81,13 @@ nav a:hover {
     background: #908F8E;
 }
 
+.fa{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
 section{
     margin: 1em 0;
 
