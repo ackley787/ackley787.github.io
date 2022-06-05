@@ -145,7 +145,7 @@ section > p{
     background: #908F8E;
     border-radius: 12px;
     max-height: 400px;
-    max-width: 80%;
+    max-width: 40%;
     object-fit: contain;
     margin: 1em 1em 1em 1em;
     margin: auto;
@@ -163,7 +163,7 @@ section > p{
     width: 90%;
     text-decoration: none;
     margin: 1em 1em 1em 1em;
-    text-align: left;
+    
     color: white;
     
 
