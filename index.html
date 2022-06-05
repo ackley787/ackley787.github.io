@@ -7,39 +7,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
 
     <title>Adam Ackley</title>
-    <style>
-        .holder{
-            margin-top: -3em;
-           
-        }
-        .holder img{
-            max-height: 200px;
-            max-width: 200px;
-            object-fit: cover;
-       
-        }
-        
-        </style>
-        <div class='holder'>
-            <img src="assets\logo_transparent.png" alt="">
-        </div>
 
         <style>
-            .profile_pic{
-                margin-left: 1.5em;
+            .card{
+                margin: 1em 1em 1em 1em;
                
             }
-            .profile_pic img{
-                max-height: 400;
+            .card img{
+                max-height: 400px;
                 max-width: 400px;
                 object-fit: cover;
+                margin: 1em 1em 1em 1em;
            
             }
             
@@ -50,81 +35,119 @@
                    
                 }
                 .project_holder img{
-                    max-height: 250px;
-                    max-width: 250px;
-                    margin-left: 1em;
-                  
-                    object-fit: cover;
+                    max-height: 200px;
+                    max-width: 300px;
+                    padding: 1em;
+                    object-fit: contain;
+                    
                
                 }
                 
                 </style>
 </head>
-<div class="profile_pic">
-    <img src="assets\Adam.jpg" alt="">
-</div>
-<body>
+<div class="cards">
 
-    <i class="fa-brands fa-github-square"></i>
-    <i class="fa-brands fa-linkedin"></i>
-
-    <header>
-        <h1>Adam Ackley</h1>
-        <span>Junior Software Developer</span>
-     
+    <header>        
         <nav>
             <a href="#aboutMe">About Me</a>
             <a href="#contact">Contact</a>
             <a href="#projects">Projects</a>
-            <a class="#github" href="https://github.com/ackley787">Github</a>
-            <a class="linkedin" href="https://linkedin.com/in/adam-ackley78">Linkedin</a>
+            <a href="#skills">Skills</a>
+            <a class="fa fa-github" href="https://github.com/ackley787" <i class="fa fa-github" style="font-size:18.18px;color:white"> Github</i>
+            </a>
+            <a class="fa fa-linkedin-square" href="https://linkedin.com/in/adam-ackley78"<i class="fa fa-linkedin-square" style="font-size:18.18px;color:white"> Linkedin
+            </i> 
+            </a>
         </nav>
         
     </header>
 
-    <main>
-        <section id="#aboutMe">
+
+        <section class="card" id="aboutMe">
 
             <h2>About Me</h2>
 
-            <ul>
-                <li>Columbus, OH</li>
-            </ul>
-
-            <p>I am currently in We Can Code It boot camp and working on my certificate to become a future Full Stack Developer. I enjoy coding and working with others. Skilled in problem solving, troubleshooting, I’m flexible and have an Associates degree in Network Systems Administration. I have a desire to learn new skills. I'm into computer gaming, computer hardware and remote control cars.
-                I've always been into computers and computer gaming since high school. I went to college for Network Systems Administration which introduced me to some very basic coding. Ever since I dabbled into it, I've always wanted to learn more about it. Now here I am as a Junior Software Developer coding and wanting to learn more.
+            <p>I am currently working toward We Can Code It Certificate in Software Development. It is my goal to become a Full-Stack Developer. I have a passion for coding and enjoy working with others in a team setting as well as independently.I am an efficient problem solver with excellent troubleshooting skills.  I am flexible and always seeking to acquire new skills. Besides having earned an Associates degree in Network Systems Administration. I am an avid computer gamer and have great interest in computer hardware and remote control cars.
                 </p>
 
         </section>
+        <section class="card">
+            <h1>Adam Ackley</h1>
+            <h3>Junior Software Developer</h3>
+            <div class="card.img">
+            <img src="assets\Adam.jpg" alt="">
+        </div>
+        </section>
 
-        <section id="#contact">
+        <section class="card" id="contact">
 
             <h2>Contact</h2>
 
             <ul>
-
+                <li>Location: Columbus, OH</li>
                 <li>Email: ackley787@gmail.com</li>
                 <li>Phone: 614-736-0898</li>
-                <li><a class="#github" href="https://github.com/ackley787"> Github</a>
-
+                <li><a class="fa fa-github" href="https://github.com/ackley787" <i class="fa fa-github" style="font-size:18px;color:white;text-decoration: none;"> Github</i>
+                  </a>
                 </li>
-                <li><a class="linkedin" href="https://linkedin.com/in/adam-ackley78"> Linkedin</a>
-
+                <li><a class="fa fa-linkedin-square" href="https://linkedin.com/in/adam-ackley78"<i class="fa fa-linkedin-square" style="font-size:18.25px;color:white;text-decoration: none;"> Linkedin
+                </i> 
+                </a>
                 </li>
 
             </ul>
 
         </section>
-
+    </div>
+    
+<body>
+    
+    <main>
+        
+        <div>
+        <h2>Skills</h2>
+    </div>
+    <section id="skills">
+    <div class="skills">
+        <ul>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Thymeleaf</li>
+            <li>JavaScript</li>
+            <li>MVC</li>
+            <li>HTML</li>
+        </ul>
+        <ul>
+            <li>CSS</li>
+            <li>TDD</li>
+            <li>Agile (Scrum)</li>
+            <li>Object Oriented Programming (OOP)</li>
+            <li>JSON</li>
+            <li>JavaScript</li>
+        </ul>
+            <ul>
+            <li>React</li>
+            <li>REST APIs</li>
+            <li>Source Control / GitHub</li>
+            <li>Relational Databases</li>
+            <li>Responsive Design / Mobile </li>
+        </ul>
+    </div>
+    </section>
+    <div>
         <h2>Projects</h2>
+    </div>
 
-        <section id="#projects">
+        <section id="projects">
 
-            <div id="projects">
+            <div class="projects">
 
                 <article>
                     <div class="project_holder">
-                    <h3>Virtual Pet</h3>
+                    
+                    <a href="https://github.com/ackley787/virtual-pet.git">
+                        <h3>Virtual Pet</h3>
+                    </a>
                     <img src="assets\Virtual Pet.jpg" alt="">
                     
                     </div>
@@ -132,7 +155,9 @@
 
                 <article>
                     <div class="project_holder">
+                        <a href="https://github.com/ackley787/virtual-pet-shelter.git">
                     <h3>Virtual Pet Shelter</h3>
+                </a>
                     <img src="assets\Virtual Pet Shelter.jpg" alt="">
                     
                     </div>    
@@ -140,7 +165,9 @@
 
                 <article>
                     <div class="project_holder">
+                        <a href="https://github.com/ackley787/virtual-pet-amok.git">
                     <h3>Virtual Pet Amok</h3>
+                </a>
                     <img src="assets\Virtual Pet Amok.jpg" alt="">
                     
                     </div>    
