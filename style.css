@@ -7,12 +7,14 @@ html{
     font-size: 16px;
     margin-top: 6em;
     background:  #cc0000;
+    color: white;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
     
  }
  .card h1{
@@ -27,8 +29,18 @@ html{
  .card img{
      margin: 1em 1em;
      border-radius: 12px;
-     padding: 0;
+     max-height: 400px;
+     max-width: 400px;
+     object-fit: cover;
+     margin: 1em 1em 1em 1em;
+
      
+ }
+ image {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
  }
  
  .card {
@@ -72,8 +84,9 @@ html{
     width: 90%;
     text-decoration: none;
     margin: 1em 1em 1em 1em;
-        
+    list-style-type: none;    
   }
+
   .card button {
     width: 50%;
     height: 40px;
@@ -135,6 +148,7 @@ section{
     
 
 }
+
 section > p{
     margin: 1em 1em 1em 1em;
 }
@@ -180,6 +194,7 @@ section > p{
   
     align-items: center;
     column-gap: 2em;
+    margin-bottom: 2em;
     
     
     
@@ -195,10 +210,22 @@ section > p{
     5px 5px 15px 5px rgba(0,0,0,0);
    
 }
-.project_holder img {
-  border-radius: 12px;
-  
+.project_container {
+
+    width: 300px;
+    max-height: 300px;
+    border-radius: 12px;
+
 }
+
+.project_holder img {
+    border-radius: 12px;
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+    object-fit: contain;
+      
+  }
 .projects a{
     text-decoration: none; /* no underline */
     
@@ -217,4 +244,8 @@ footer{
     padding: 1em 0;
     text-align: center;
     
+}
+
+p {
+    color: white;
 }
