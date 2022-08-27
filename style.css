@@ -79,9 +79,25 @@ html{
     line-height: 3em;
     text-decoration: none;
     margin: 2em;
-    list-style-type: none;    
+    list-style-type: none;  
+    color: white;  
   }
-
+  .card > li{
+    padding: 0;
+    height: 260px;
+    width: 220px;
+    line-height: 3em;
+    text-decoration: none;
+    margin: 2em;
+    list-style-type: none;  
+    color: white;  
+      
+  }
+  a:link {
+    text-decoration: none;
+    color: white; 
+  }
+  
   .card button {
     width: 50%;
     height: 40px;
@@ -93,6 +109,8 @@ html{
   .card a:hover{
     background: #cdcccb;
     padding: .2em;
+    text-decoration: none;
+    color: white; 
     
 }
 
